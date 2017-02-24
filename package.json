@@ -1,0 +1,60 @@
+{
+  "name": "antd-snippets",
+  "version": "0.0.1",
+  "author": "bang <sqibang@gmail.com>",
+  "license": "MIT",
+  "displayName": "Ant Design Snippets",
+  "description": "Ant-Design Snippets for VS Code",
+  "icon": "images/icon.png",
+  "homepage": "https://github.com/bang88/antd-snippets/blob/master/README.md",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bang88/antd-snippets.git"
+  },
+  "publisher": "bang",
+  "engines": {
+    "vscode": "^1.5.0"
+  },
+  "galleryBanner": {
+    "color": "#E6E0EA",
+    "theme": "light"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [{
+        "language": "html",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "handlebars",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "razor",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "tpl",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  }
+}

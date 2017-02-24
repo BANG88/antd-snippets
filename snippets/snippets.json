@@ -1,0 +1,524 @@
+{
+	"Default Button": {
+		"prefix": "antb",
+		"body": [
+			"<Button>$1</Button>",
+			""
+		]
+	},
+	"Primary Button": {
+		"prefix": "antbp",
+		"body": [
+			"<Button type=\"primary\">$1</Button>",
+			""
+		]
+	},
+	"Dashed Button": {
+		"prefix": "antbd",
+		"body": [
+			"<Button type=\"dashed\">$1</Button>",
+			""
+		]
+	},
+	"Danger Button": {
+		"prefix": "antbdanger",
+		"body": [
+			"<Button type=\"danger\">$1</Button>",
+			""
+		]
+	},
+	"Icon Button": {
+		"prefix": "antbicon",
+		"body": [
+			"<Button icon=\"$1\">$1</Button>",
+			""
+		]
+	},
+	"Radio Group Button": {
+		"prefix": "antbradiogroup",
+		"body": [
+			"<Radio.Group value=\"$1\" >\r",
+			"    <Radio.Button value=\"$1\">$1</Radio.Button>\r",
+			"    <Radio.Button value=\"$2\">$2</Radio.Button>\r",
+			"    <Radio.Button value=\"$3\">$3</Radio.Button>\r",
+			"</Radio.Group>",
+			""
+		]
+	},
+	"Basic Button Group": {
+		"prefix": "antbgroup",
+		"body": [
+			"<ButtonGroup>\r",
+			"    <Button>$1</Button>\r",
+			"    <Button type=\"primary\">$2</Button>\r",
+			"</ButtonGroup>\r",
+			""
+		],
+		"description": ""
+	},
+	"Icon": {
+		"prefix": "anticon",
+		"body": [
+			"<Icon type=\"$1\" />"
+		],
+		"description": ""
+	},
+	"Row": {
+		"prefix": "antrow",
+		"body": [
+			"<Row gutter={16}>\r",
+			"    <Col span={6} />\r",
+			"    <Col span={6} />\r",
+			"    <Col span={6} />\r",
+			"    <Col span={6} />\r",
+			"</Row>\r",
+			""
+		],
+		"description": "The Basic Grid Row."
+	},
+	"Layout": {
+		"prefix": "antlayout",
+		"body": [
+			"<Layout>\r",
+			"  <Header>header</Header>\r",
+			"  <Layout>\r",
+			"    <Sider>left sidebar</Sider>\r",
+			"    <Content>main content</Content>\r",
+			"    <Sider>right sidebar</Sider>\r",
+			"  </Layout>\r",
+			"  <Footer>footer</Footer>\r",
+			"</Layout>"
+		],
+		"description": "The Basic Layout"
+	},
+	"Affix": {
+		"prefix": "antaffix",
+		"body": [
+			"<Affix>\r",
+			"    <Button type=\"primary\">$1</Button>\r",
+			"</Affix>\r",
+			""
+		],
+		"description": "Affix"
+	},
+	"Breadcrumb": {
+		"prefix": "antbread",
+		"body": [
+			"<Breadcrumb>\r",
+			"    <Breadcrumb.Item>Home</Breadcrumb.Item>\r",
+			"    <Breadcrumb.Item><a href=\"\">Application Center</a></Breadcrumb.Item>\r",
+			"    <Breadcrumb.Item><a href=\"\">Application List</a></Breadcrumb.Item>\r",
+			"    <Breadcrumb.Item>An Application</Breadcrumb.Item>\r",
+			"</Breadcrumb>\r",
+			""
+		],
+		"description": ""
+	},
+	"Dropdown": {
+		"prefix": "antdropdown",
+		"body": [
+			"const menu = <Menu>\r",
+			"    <Menu.Item>\r",
+			"        <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"#\">1st menu item</a>\r",
+			"    </Menu.Item>\r",
+			"    <Menu.Item>\r",
+			"        <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"#\">2nd menu item</a>\r",
+			"    </Menu.Item>\r",
+			"    <Menu.Item>\r",
+			"        <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"#\">3d menu item</a>\r",
+			"    </Menu.Item>\r",
+			"</Menu>\r",
+			"\r",
+			"<Dropdown overlay={menu}>\r",
+			"    <a className=\"ant-dropdown-link\" href=\"#\">\r",
+			"      Hover me <Icon type=\"down\" />\r",
+			"    </a>\r",
+			"</Dropdown>",
+			""
+		],
+		"description": "The Basic Dropdown."
+	},
+	"Menu": {
+		"prefix": "antmenu",
+		"body": [
+			"<Menu>\r",
+			"    <Menu.Item>Menu</Menu.Item>\r",
+			"    <SubMenu title=\"SubMenu\">\r",
+			"        <Menu.Item>SubMenuItem</Menu.Item>\r",
+			"    </SubMenu>\r",
+			"</Menu>\r",
+			""
+		],
+		"description": ""
+	},
+	"Steps": {
+		"prefix": "antsteps",
+		"body": [
+			"<Steps current={1}>\r",
+			"    <Steps.Step title=\"Finished\" description=\"This is a description.\" />\r",
+			"    <Steps.Step title=\"In Progress\" description=\"This is a description.\" />\r",
+			"    <Steps.Step title=\"Waiting\" description=\"This is a description.\" />\r",
+			"</Steps>\r",
+			""
+		],
+		"description": ""
+	},
+	"Tabs": {
+		"prefix": "anttabs",
+		"body": [
+			"<Tabs defaultActiveKey=\"1\">\r",
+			"    <Tabs.TabPane tab=\"Tab 1\" key=\"1\">Content of Tab Pane 1</Tabs.TabPane>\r",
+			"    <Tabs.TabPane tab=\"Tab 2\" key=\"2\">Content of Tab Pane 2</Tabs.TabPane>\r",
+			"    <Tabs.TabPane tab=\"Tab 3\" key=\"3\">Content of Tab Pane 3</Tabs.TabPane>\r",
+			"</Tabs>\r",
+			""
+		],
+		"description": ""
+	},
+	"Checkbox": {
+		"prefix": "antcheckbox",
+		"body": [
+			"<Checkbox>$1</Checkbox>",
+			""
+		],
+		"description": "The Basic Checkbox"
+	},
+	"Checkbox Group": {
+		"prefix": "antcheckboxgroup",
+		"body": [
+			"const optionsWithDisabled = [\r",
+			"  { label: 'Apple', value: 'Apple' },\r",
+			"  { label: 'Pear', value: 'Pear' },\r",
+			"  { label: 'Orange', value: 'Orange', disabled: false },\r",
+			"]\r",
+			"\r",
+			"<CheckboxGroup options={optionsWithDisabled} disabled defaultValue={['Apple']}/>\r",
+			""
+		],
+		"description": "Generate a group of checkboxes from an array."
+	},
+	"Horizontal Form": {
+		"prefix": "antformhorizontal",
+		"body": [
+			"<Form horizontal>\r",
+			"    <FormItem label=\"Field A\" labelCol={{ span: 4 }} wrapperCol={{ span: 14 }}>\r",
+			"        <Input placeholder=\"input placeholder\" />\r",
+			"    </FormItem>\r",
+			"    <FormItem label=\"Field B\" labelCol={{ span: 4 }} wrapperCol={{ span: 14 }}>\r",
+			"        <Input placeholder=\"input placeholder\" />\r",
+			"    </FormItem>\r",
+			"    <FormItem wrapperCol={{ span: 14, offset: 4 }}>\r",
+			"        <Button type=\"primary\" size=\"large\">Submit</Button>\r",
+			"    </FormItem>\r",
+			"</Form>\r",
+			""
+		],
+		"description": ""
+	},
+	"Form": {
+		"prefix": "antform",
+		"body": [
+			"<Form>\r",
+			"    <FormItem label=\"Field A\">\r",
+			"        <Input placeholder=\"input placeholder\" />\r",
+			"    </FormItem>\r",
+			"    <FormItem label=\"Field B\">\r",
+			"        <Input placeholder=\"input placeholder\" />\r",
+			"    </FormItem>\r",
+			"    <FormItem>\r",
+			"        <Button type=\"primary\" size=\"large\">Submit</Button>\r",
+			"    </FormItem>\r",
+			"</Form>\r",
+			""
+		],
+		"description": "Create a vertical Form"
+	},
+	"Inline Form": {
+		"prefix": "antforminline",
+		"body": [
+			"<Form inline>\r",
+			"    <FormItem label=\"Field A\">\r",
+			"        <Input placeholder=\"input placeholder\" />\r",
+			"    </FormItem>\r",
+			"    <FormItem label=\"Field B\">\r",
+			"        <Input placeholder=\"input placeholder\" />\r",
+			"    </FormItem>\r",
+			"    <FormItem>\r",
+			"        <Button type=\"primary\" size=\"large\">Submit</Button>\r",
+			"    </FormItem>\r",
+			"</Form>\r",
+			""
+		],
+		"description": "Create an inline Form"
+	},
+	"Input": {
+		"prefix": "antinput",
+		"body": [
+			"<Input placeholder=\"Basic usage\" />\r",
+			""
+		],
+		"description": "Basic Input"
+	},
+	"Input With addon": {
+		"prefix": "antinputaddon",
+		"body": [
+			"<Input addonAfter={<Icon type=\"$1\" />} defaultValue=\"$2\" />\r",
+			""
+		],
+		"description": ""
+	},
+	"Input Group": {
+		"prefix": "antinputgroup",
+		"body": [
+			"<InputGroup size=\"large\">\r",
+			"    <Col span=\"4\">\r",
+			"    <Input defaultValue=\"$1\" />\r",
+			"    </Col>\r",
+			"    <Col span=\"8\">\r",
+			"    <Input defaultValue=\"$2\" />\r",
+			"    </Col>\r",
+			"</InputGroup>\r",
+			""
+		],
+		"description": ""
+	},
+	"Input Group Compact": {
+		"prefix": "antinputgroupcompact",
+		"body": [
+			"<InputGroup compact>\r",
+			"    <Input style={{ width: '20%' }} defaultValue=\"$1\" />\r",
+			"    <Input style={{ width: '30%' }} defaultValue=\"$2\" />\r",
+			"</InputGroup>\r",
+			""
+		],
+		"description": "Create an Input Gourp with compact mode"
+	},
+	"Input Group With Select": {
+		"prefix": "antinputselect",
+		"body": [
+			"<InputGroup compact>\r",
+			"    <Select defaultValue=\"$1\">\r",
+			"        <Option value=\"$1\">$1</Option>\r",
+			"        <Option value=\"$2\">$2</Option>\r",
+			"      </Select>\r",
+			"    <Input style={{ width: '50%' }} defaultValue=\"$3\" />\r",
+			"</InputGroup>\r",
+			""
+		],
+		"description": "Create an Input Group with Select "
+	},
+	"Radio": {
+		"prefix": "antradio",
+		"body": [
+			"<Radio>$1</Radio>"
+		],
+		"description": ""
+	},
+	"Radio Group": {
+		"prefix": "antradiogroup",
+		"body": [
+			"<RadioGroup>\r",
+			"    <Radio value={1}>A</Radio>\r",
+			"    <Radio value={2}>B</Radio>\r",
+			"    <Radio value={3}>C</Radio>\r",
+			"    <Radio value={4}>D</Radio>\r",
+			"</RadioGroup>\r",
+			""
+		],
+		"description": ""
+	},
+	"Radio Button Group": {
+		"prefix": "antradiobuttongroup",
+		"body": [
+			"<RadioGroup>\r",
+			"    <RadioButton value=\"a\">$1</RadioButton>\r",
+			"    <RadioButton value=\"b\" disabled>$2</RadioButton>\r",
+			"    <RadioButton value=\"c\">$3</RadioButton>\r",
+			"    <RadioButton value=\"d\">$4</RadioButton>\r",
+			"</RadioGroup>\r",
+			""
+		],
+		"description": ""
+	},
+	"Select": {
+		"prefix": "antselect",
+		"body": [
+			"<Select defaultValue=\"$1\" style={{ width: 120 }}>\r",
+			"    <Option value=\"$1\">$1</Option>\r",
+			"    <Option value=\"$2\">$2</Option>\r",
+			"    <Option value=\"$3\" disabled>$4</Option>\r",
+			"    <Option value=\"$4\">$4</Option>\r",
+			"</Select>\r",
+			""
+		],
+		"description": ""
+	},
+	"Badge": {
+		"prefix": "antbadge",
+		"body": [
+			"<Badge count={$1}>\r",
+			"    <a href=\"#\"/>\r",
+			"</Badge>\r",
+			""
+		],
+		"description": ""
+	},
+	"Card with extra": {
+		"prefix": "antcard",
+		"body": [
+			"<Card title=\"$1\" extra={<a href=\"#\">More</a>}>\r",
+			"    <p>$2</p>\r",
+			"</Card>\r",
+			""
+		],
+		"description": ""
+	},
+	"Collapse": {
+		"prefix": "antcollapse",
+		"body": [
+			"<Collapse defaultActiveKey={[ '1']}>\r",
+			"    <Panel header=\"This is panel header 1\" key=\"1\">\r",
+			"        <p>{text}</p>\r",
+			"    </Panel>\r",
+			"    <Panel header=\"This is panel header 2\" key=\"2\">\r",
+			"        <p>{text}</p>\r",
+			"    </Panel>\r",
+			"    <Panel header=\"This is panel header 3\" key=\"3\">\r",
+			"        <p>{text}</p>\r",
+			"    </Panel>\r",
+			"</Collapse>\r",
+			""
+		],
+		"description": ""
+	},
+	"Popover": {
+		"prefix": "antpopover",
+		"body": [
+			"<Popover content={ <div>\r",
+			"    <p>$3</p>\r",
+			"    </div>\r",
+			"    } title=\"$2\" >\r",
+			"    <Button type=\"primary\">$1</Button>\r",
+			"</Popover>\r",
+			""
+		],
+		"description": ""
+	},
+	"Tooltip": {
+		"prefix": "anttooltip",
+		"body": [
+			"<Tooltip title=\"$1\">\r",
+			"    <span>$2</span>\r",
+			"</Tooltip>\r",
+			""
+		],
+		"description": ""
+	},
+	"Table": {
+		"prefix": "anttable",
+		"body": [
+			"<Table dataSource={$1}>\r",
+			"    <ColumnGroup title=\"Name\">\r",
+			"        <Column title=\"First Name\" dataIndex=\"firstName\" key=\"firstName\" />\r",
+			"        <Column title=\"Last Name\" dataIndex=\"lastName\" key=\"lastName\" />\r",
+			"    </ColumnGroup>\r",
+			"    <Column title=\"Age\" dataIndex=\"age\" key=\"age\" />\r",
+			"    <Column title=\"Address\" dataIndex=\"address\" key=\"address\" />\r",
+			"    <Column title=\"Action\" key=\"action\" render={(text, record)=> (\r",
+			"        <span>\r",
+			"          <a href=\"#\">Action 一 {record.name}</a>\r",
+			"          <span className=\"ant-divider\" />\r",
+			"          <a href=\"#\">Delete</a>\r",
+			"          <span className=\"ant-divider\" />\r",
+			"          <a href=\"#\" className=\"ant-dropdown-link\">\r",
+			"            More actions <Icon type=\"down\" />\r",
+			"          </a>\r",
+			"        </span> )} />\r",
+			"</Table>\r",
+			""
+		],
+		"description": "Basic JSX Style Table. "
+	},
+	"Timeline": {
+		"prefix": "anttimeline",
+		"body": [
+			"<Timeline>\r",
+			"    <Timeline.Item>Create a services site 2015-09-01</Timeline.Item>\r",
+			"    <Timeline.Item>Solve initial network problems 2015-09-01</Timeline.Item>\r",
+			"    <Timeline.Item>Technical testing 2015-09-01</Timeline.Item>\r",
+			"    <Timeline.Item>Network problems being solved 2015-09-01</Timeline.Item>\r",
+			"</Timeline>\r",
+			""
+		],
+		"description": ""
+	},
+	"Alert": {
+		"prefix": "antalert",
+		"body": [
+			"<Alert message=\"Success Text\" type=\"success\" />\r",
+			""
+		],
+		"description": ""
+	},
+	"Alert Closable": {
+		"prefix": "antalertx",
+		"body": [
+			"<Alert message=\"$1\"\r",
+			"    description=\"$2\"\r",
+			"    type=\"error\"\r",
+			"    closable\r",
+			"/>"
+		],
+		"description": ""
+	},
+	"Modal": {
+		"prefix": "antmodal",
+		"body": [
+			"<Modal title=\"$1\" visible>\r",
+			"    <p>$2</p>\r",
+			"</Modal>\r",
+			""
+		],
+		"description": ""
+	},
+	"Information Modal": {
+		"prefix": "antmodalinfo",
+		"body": [
+			"Modal.$1({\r",
+			"    title: '$2',\r",
+			"    content: '$3',\r",
+			"})",
+			""
+		],
+		"description": ""
+	},
+	"Message": {
+		"prefix": "antmsg",
+		"body": [
+			"message.info('$1')",
+			""
+		],
+		"description": ""
+	},
+	"Notification": {
+		"prefix": "antnotification",
+		"body": [
+			"notification.$1({\r",
+			"    message: '$2',\r",
+			"    description: '$3',\r",
+			"})",
+			""
+		],
+		"description": ""
+	},
+	"Popconfirm": {
+		"prefix": "antpopconfirm",
+		"body": [
+			"<Popconfirm title=\"Are you sure delete this task?\">\r",
+			"    <a href=\"#\">$1</a>\r",
+			"</Popconfirm>",
+			""
+		],
+		"description": ""
+	}
+}
