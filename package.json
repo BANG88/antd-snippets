@@ -1,6 +1,6 @@
 {
   "name": "antd-snippets",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "bang <sqibang@gmail.com>",
   "license": "MIT",
   "displayName": "Ant Design Snippets",
@@ -9,7 +9,7 @@
   "homepage": "https://github.com/bang88/antd-snippets/blob/master/README.md",
   "repository": {
     "type": "git",
-    "url": "git@github.com:bang88/antd-snippets.git"
+    "url": "https://github.com/bang88/antd-snippets/"
   },
   "publisher": "bang",
   "engines": {
