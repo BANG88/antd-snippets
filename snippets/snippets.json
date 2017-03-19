@@ -200,7 +200,7 @@
 	"Horizontal Form": {
 		"prefix": "antformhorizontal",
 		"body": [
-			"<Form horizontal>\r",
+			"<Form layout=\"horizontal\">\r",
 			"    <FormItem label=\"Field A\" labelCol={{ span: 4 }} wrapperCol={{ span: 14 }}>\r",
 			"        <Input placeholder=\"input placeholder\" />\r",
 			"    </FormItem>\r",
@@ -236,7 +236,7 @@
 	"Inline Form": {
 		"prefix": "antforminline",
 		"body": [
-			"<Form inline>\r",
+			"<Form layout=\"inline\">\r",
 			"    <FormItem label=\"Field A\">\r",
 			"        <Input placeholder=\"input placeholder\" />\r",
 			"    </FormItem>\r",
