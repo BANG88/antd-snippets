@@ -36,24 +36,20 @@
         "path": "./snippets/snippets.json"
       },
       {
-        "language": "tpl",
-        "path": "./snippets/snippets.json"
-      },
-      {
         "language": "typescript",
-        "path": "./snippets/snippets.json"
+        "path": "./snippets/typescript-snippets.json"
       },
       {
         "language": "javascript",
-        "path": "./snippets/snippets.json"
+        "path": "./snippets/javascript-snippets.json"
       },
       {
         "language": "javascriptreact",
-        "path": "./snippets/snippets.json"
+        "path": "./snippets/javascript-snippets.json"
       },
       {
         "language": "typescriptreact",
-        "path": "./snippets/snippets.json"
+        "path": "./snippets/typescript-snippets.json"
       }
     ]
   }
