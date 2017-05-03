@@ -1,6 +1,6 @@
 {
   "name": "antd-snippets",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "author": "bang <sqibang@gmail.com>",
   "license": "MIT",
   "displayName": "Ant Design Snippets",
@@ -37,19 +37,19 @@
       },
       {
         "language": "typescript",
-        "path": "./snippets/typescript-snippets.json"
+        "path": "./snippets/snippets.json"
       },
       {
         "language": "javascript",
-        "path": "./snippets/javascript-snippets.json"
+        "path": "./snippets/snippets.json"
       },
       {
         "language": "javascriptreact",
-        "path": "./snippets/javascript-snippets.json"
+        "path": "./snippets/snippets.json"
       },
       {
         "language": "typescriptreact",
-        "path": "./snippets/typescript-snippets.json"
+        "path": "./snippets/snippets.json"
       }
     ]
   }
