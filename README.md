@@ -37,6 +37,7 @@ antcheckbox | The Basic Checkbox
 antcheckboxgroup | Generate a group of checkboxes from an array.
 antformhorizontal | Horizontal Form
 antform | Create a vertical Form
+antformwrapped | Create a Form to be wrapped by Form.create()
 antforminline | Create an inline Form
 antinput | Basic Input
 antinputaddon | Input With addon
