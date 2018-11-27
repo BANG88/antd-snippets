@@ -1,52 +1,20 @@
 {
-	"Default Button": {
-		"prefix": "antb",
+	"Button": {
+		"prefix": "antbutton",
 		"body": [
-			"<Button>$1</Button>",
+			"<Button type=\"${1|default,primary,dashed,danger|}\">$2</Button>",
 			""
 		]
 	},
-	"Primary Button": {
-		"prefix": "antbp",
+	"Button with Icon": {
+		"prefix": "antbutton-w-icon",
 		"body": [
-			"<Button type=\"primary\">$1</Button>",
-			""
-		]
-	},
-	"Dashed Button": {
-		"prefix": "antbd",
-		"body": [
-			"<Button type=\"dashed\">$1</Button>",
-			""
-		]
-	},
-	"Danger Button": {
-		"prefix": "antbdanger",
-		"body": [
-			"<Button type=\"danger\">$1</Button>",
-			""
-		]
-	},
-	"Icon Button": {
-		"prefix": "antbicon",
-		"body": [
-			"<Button icon=\"$1\">$1</Button>",
-			""
-		]
-	},
-	"Radio Group Button": {
-		"prefix": "antbradiogroup",
-		"body": [
-			"<Radio.Group value=\"$1\" >\r",
-			"    <Radio.Button value=\"$1\">$1</Radio.Button>\r",
-			"    <Radio.Button value=\"$2\">$2</Radio.Button>\r",
-			"    <Radio.Button value=\"$3\">$3</Radio.Button>\r",
-			"</Radio.Group>",
+			"<Button icon=\"${1|alert,align-center,align-left,align-right,alipay,alipay-circle,aliwangwang,aliyun,amazon,android,ant-design,api,apple,appstore,area-chart,arrow-down,arrow-left,arrow-right,arrow-up,arrows-alt,audit,backward,bank,bar-chart,barcode,bars,behance,behance-square,bell,bg-colors,block,bold,book,border,border-bottom,border-horizontal,border-inner,border-left,border-right,border-top,border-verticle,box-plot,branches,build,bulb,calculator,calendar,camera,car,caret-down,caret-left,caret-right,caret-up,check,check-circle,check-square,chrome,clock-circle,close,close-circle,close-square,cloud,cloud-download,cloud-upload,cluster,code,code-sandbox,codepen,codepen-circle,coffee,colum-height,compass,contacts,copy,copyright,credit-card,crown,customer-service,dash,dashboard,database,delete,deployment-unit,desktop,diff,dingding,disconnect,dislike,dollar,dot-chart,double-left,double-right,down,down-circle,down-square,download,drag,dribbble,dribbble-square,dropbox,edit,ellipsis,enter,environment,euro,exception,exclamation,exclamation-circle,experiment,export,eye,facebook,fall,fast-backward,fast-forward,file,file-add,file-done,file-excel,file-exclamation,file-jpg,file-markdown,file-pdf,file-ppt,file-protect,file-search,file-sync,file-text,file-unknown,file-word,filter,fire,flag,folder,folder-add,folder-open,font-colors,font-size,fork,form,forward,frown,fullscreen,fullscreen-exit,fund,gateway,gift,github,gitlab,global,gold,google,google-plus,hdd,heart,heat-map,highlight,home,hourglass,html5,idcard,ie,inbox,info,info-circle,instagram,insurance,interation,issues-close,italic,key,laptop,layout,left,left-circle,left-square,like,line-chart,line-height,link,linkedin,loading,loading-3-quarters,lock,login,logout,mail,man,medicine-box,medium,medium-workmark,meh,menu-fold,menu-unfold,message,minus,minus-circle,minus-square,mobile,money-collect,notification,ordered-list,paper-clip,pause,pause-circle,pay-circle,phone,pic-center,pic-left,pic-right,picture,pie-chart,play-circle,plus,plus-circle,plus-square,pound,poweroff,printer,profile,project,property-safety,pushpin,qq,qrcode,question,question-circle,radar-chart,radius-bottomleft,radius-bottomright,radius-setting,radius-upleft,read,reconciliation,red-envelope,redo,reload,rest,retweet,right,right-circle,right-square,rise,robot,rocket,rollback,safety,safety-certificate,save,scan,schedule,scissor,search,security-scan,select,setting,shake,share-alt,shop,shopping,shopping-cart,shrink,skin,skype,slack,slack-square,sliders,small-dash,smile,snippets,solution,sort-ascending,sort-descending,sound,star,step-backward,step-forward,stock,stop,strikethrough,swap,swap-left,swap-right,switcher,sync,table,tablet,tag,tags,taobao,taobao-circle,team,thunderbolt,to-top,tool,trademark,trophy,twitter,underline,undo,unlock,up,up-circle,up-square,upload,usb,user,user-add,user-delete,usergroup-add,usergroup-delete,vertical-left,vertical-right,video-camera,wallet,warning,wechat,weibo,weibo-circle,weibo-square,wifi,windows,woman,yahoo,youtube,yuque,zhihu,zoom-in,zoom-out|}\">$2</Button>",
 			""
 		]
 	},
 	"Basic Button Group": {
-		"prefix": "antbgroup",
+		"prefix": "antbutton-group",
 		"body": [
 			"<ButtonGroup>\r",
 			"    <Button>$1</Button>\r",
@@ -56,10 +24,36 @@
 		],
 		"description": ""
 	},
+	"Radio Group Button": {
+		"prefix": "antbutton-radio-group",
+		"body": [
+			"<Radio.Group value=\"$1\" >\r",
+			"    <Radio.Button value=\"$1\">$1</Radio.Button>\r",
+			"    <Radio.Button value=\"$2\">$2</Radio.Button>\r",
+			"    <Radio.Button value=\"$3\">$3</Radio.Button>\r",
+			"</Radio.Group>",
+			""
+		]
+	},
 	"Icon": {
 		"prefix": "anticon",
 		"body": [
-			"<Icon type=\"$1\" />"
+			"<Icon type=\"${1|alert,align-center,align-left,align-right,alipay,alipay-circle,aliwangwang,aliyun,amazon,android,ant-design,api,apple,appstore,area-chart,arrow-down,arrow-left,arrow-right,arrow-up,arrows-alt,audit,backward,bank,bar-chart,barcode,bars,behance,behance-square,bell,bg-colors,block,bold,book,border,border-bottom,border-horizontal,border-inner,border-left,border-right,border-top,border-verticle,box-plot,branches,build,bulb,calculator,calendar,camera,car,caret-down,caret-left,caret-right,caret-up,check,check-circle,check-square,chrome,clock-circle,close,close-circle,close-square,cloud,cloud-download,cloud-upload,cluster,code,code-sandbox,codepen,codepen-circle,coffee,colum-height,compass,contacts,copy,copyright,credit-card,crown,customer-service,dash,dashboard,database,delete,deployment-unit,desktop,diff,dingding,disconnect,dislike,dollar,dot-chart,double-left,double-right,down,down-circle,down-square,download,drag,dribbble,dribbble-square,dropbox,edit,ellipsis,enter,environment,euro,exception,exclamation,exclamation-circle,experiment,export,eye,facebook,fall,fast-backward,fast-forward,file,file-add,file-done,file-excel,file-exclamation,file-jpg,file-markdown,file-pdf,file-ppt,file-protect,file-search,file-sync,file-text,file-unknown,file-word,filter,fire,flag,folder,folder-add,folder-open,font-colors,font-size,fork,form,forward,frown,fullscreen,fullscreen-exit,fund,gateway,gift,github,gitlab,global,gold,google,google-plus,hdd,heart,heat-map,highlight,home,hourglass,html5,idcard,ie,inbox,info,info-circle,instagram,insurance,interation,issues-close,italic,key,laptop,layout,left,left-circle,left-square,like,line-chart,line-height,link,linkedin,loading,loading-3-quarters,lock,login,logout,mail,man,medicine-box,medium,medium-workmark,meh,menu-fold,menu-unfold,message,minus,minus-circle,minus-square,mobile,money-collect,notification,ordered-list,paper-clip,pause,pause-circle,pay-circle,phone,pic-center,pic-left,pic-right,picture,pie-chart,play-circle,plus,plus-circle,plus-square,pound,poweroff,printer,profile,project,property-safety,pushpin,qq,qrcode,question,question-circle,radar-chart,radius-bottomleft,radius-bottomright,radius-setting,radius-upleft,read,reconciliation,red-envelope,redo,reload,rest,retweet,right,right-circle,right-square,rise,robot,rocket,rollback,safety,safety-certificate,save,scan,schedule,scissor,search,security-scan,select,setting,shake,share-alt,shop,shopping,shopping-cart,shrink,skin,skype,slack,slack-square,sliders,small-dash,smile,snippets,solution,sort-ascending,sort-descending,sound,star,step-backward,step-forward,stock,stop,strikethrough,swap,swap-left,swap-right,switcher,sync,table,tablet,tag,tags,taobao,taobao-circle,team,thunderbolt,to-top,tool,trademark,trophy,twitter,underline,undo,unlock,up,up-circle,up-square,upload,usb,user,user-add,user-delete,usergroup-add,usergroup-delete,vertical-left,vertical-right,video-camera,wallet,warning,wechat,weibo,weibo-circle,weibo-square,wifi,windows,woman,yahoo,youtube,yuque,zhihu,zoom-in,zoom-out|}\" />"
+		],
+		"description": ""
+	},
+	"List": {
+		"prefix": "antlist",
+		"body": [
+			"{const data = ['Racing car sprays burning fuel into crowd.', 'Japanese princess to wed commoner.', 'Australian walks 100km after outback crash.', 'Man charged over missing wedding girl.', 'Los Angeles battles huge wildfires.']}\r",
+			"<List\r",
+			"    header={<div>Header</div>}\r",
+			"    footer={<div>Footer</div>}\r",
+			"    bordered\r",
+			"    dataSource={data}\r",
+			"    renderItem={item => (<List.Item>{item}</List.Item>)}\r",
+			"/>\r",
+			""
 		],
 		"description": ""
 	},
@@ -151,6 +145,14 @@
 		],
 		"description": ""
 	},
+	"Pagination": {
+		"prefix": "antpagination",
+		"body": [
+			"<Pagination defaultCurrent={1} total={50} />\r",
+			""
+		],
+		"description": ""
+	},
 	"Steps": {
 		"prefix": "antsteps",
 		"body": [
@@ -163,14 +165,49 @@
 		],
 		"description": ""
 	},
+	"AutoComplete": {
+		"prefix": "antautocomplete",
+		"body": [
+			"{const dataSource = ['Burns Bay Road', 'Downing Street', 'Wall Street']}\r",
+			"<AutoComplete\r",
+			"    dataSource={dataSource}\r",
+			"    placeholder=\"try to type `b`\"\r",
+			"    filterOption={(inputValue, option) => option.props.children.toUpperCase().indexOf(inputValue.toUpperCase()) !== -1}\r",
+			"/>\r",
+			""
+		],
+		"description": ""
+	},
+	"Cascader": {
+		"prefix": "antcascader",
+		"body": [
+			"{const options = [{ value: 'zhejiang', label: 'Zhejiang', children: [{ value: 'hangzhou', label: 'Hangzhou', children: [{ value: 'xihu', label: 'West Lake', }], }], }, { value: 'jiangsu', label: 'Jiangsu', children: [{ value: 'nanjing', label: 'Nanjing', children: [{ value: 'zhonghuamen', label: 'Zhong Hua Men', }], }], }];}\r",
+			"<Cascader options={options} onChange={onChange} placeholder=\"Please select\" />\r",
+			""
+		],
+		"description": ""
+	},
 	"Tabs": {
 		"prefix": "anttabs",
 		"body": [
-			"<Tabs defaultActiveKey=\"1\">\r",
+			"<Tabs defaultActiveKey=\"1\" type=\"${1|line,card,editable-card|}\">\r",
 			"    <Tabs.TabPane tab=\"Tab 1\" key=\"1\">Content of Tab Pane 1</Tabs.TabPane>\r",
 			"    <Tabs.TabPane tab=\"Tab 2\" key=\"2\">Content of Tab Pane 2</Tabs.TabPane>\r",
 			"    <Tabs.TabPane tab=\"Tab 3\" key=\"3\">Content of Tab Pane 3</Tabs.TabPane>\r",
 			"</Tabs>\r",
+			""
+		],
+		"description": ""
+	},
+	"Tag": {
+		"prefix": "anttag",
+		"body": [
+			"<div>\r",
+			"    <Tag>Tag 1</Tag>\r",
+			"    <Tag><a href=\"#\">Link</a></Tag>\r",
+			"    <Tag closable>Tag 2</Tag>\r",
+			"    <Tag closable>Prevent Default</Tag>\r",
+			"</div>\r",
 			""
 		],
 		"description": ""
@@ -184,7 +221,7 @@
 		"description": "The Basic Checkbox"
 	},
 	"Checkbox Group": {
-		"prefix": "antcheckboxgroup",
+		"prefix": "antcheckbox-group",
 		"body": [
 			"const optionsWithDisabled = [\r",
 			"  { label: 'Apple', value: 'Apple' },\r",
@@ -198,7 +235,7 @@
 		"description": "Generate a group of checkboxes from an array."
 	},
 	"Horizontal Form": {
-		"prefix": "antformhorizontal",
+		"prefix": "antform-horizontal",
 		"body": [
 			"<Form layout=\"horizontal\">\r",
 			"    <FormItem label=\"Field A\" labelCol={{ span: 4 }} wrapperCol={{ span: 14 }}>\r",
@@ -211,6 +248,86 @@
 			"        <Button type=\"primary\" size=\"large\">Submit</Button>\r",
 			"    </FormItem>\r",
 			"</Form>\r",
+			""
+		],
+		"description": ""
+	},
+	"DatePicker": {
+		"prefix": "antdatepicker",
+		"body": [
+			"<DatePicker />\r",
+			""
+		],
+		"description": ""
+	},
+	"MonthPicker": {
+		"prefix": "antdatepicker-monthpicker",
+		"body": [
+			"<DatePicker.MonthPicker />\r",
+			""
+		],
+		"description": ""
+	},
+	"RangePicker": {
+		"prefix": "antdatepicker-rangepicker",
+		"body": [
+			"<DatePicker.RangePicker />\r",
+			""
+		],
+		"description": ""
+	},
+	"WeekPicker": {
+		"prefix": "antdatepicker-weekpicker",
+		"body": [
+			"<DatePicker.WeekPicker />\r",
+			""
+		],
+		"description": ""
+	},
+	"TimePicker": {
+		"prefix": "anttimepicker",
+		"body": [
+			"<TimePicker use12Hours defaultOpenValue={moment('00:00:00', 'HH:mm:ss')} />\r",
+			""
+		],
+		"description": ""
+	},
+	"Avatar": {
+		"prefix": "antavatar",
+		"body": [
+			"<Avatar icon=\"user\" />\r",
+			""
+		],
+		"description": ""
+	},
+	"Input Addon": {
+		"prefix": "antinput-addon",
+		"body": [
+			"<Input addonBefore=\"http://\" addonAfter=\".com\" defaultValue=\"domain\" />\r",
+			""
+		],
+		"description": ""
+	},
+	"Input Number": {
+		"prefix": "antinput-number",
+		"body": [
+			"<InputNumber min={0} max={100} defaultValue={50} />\r",
+			""
+		],
+		"description": ""
+	},
+	"Input Formatted": {
+		"prefix": "antinput-formatted",
+		"body": [
+			"<InputNumber min={0} max={100} defaultValue={100} formatter={value => `${value}%`} parser={value => value.replace('%', '')} />\r",
+			""
+		],
+		"description": ""
+	},
+	"Rate": {
+		"prefix": "antrate",
+		"body": [
+			"<Rate defaultValue={2} />\r",
 			""
 		],
 		"description": ""
@@ -234,7 +351,7 @@
 		"description": "Create a vertical Form"
 	},
 	"FormWrapped": {
-		"prefix": "antformwrapped",
+		"prefix": "antform-wrapped",
 		"body": [
 			"const {getFieldDecorator,getFieldsError, getFieldError, isFieldTouched,validateFields}=this.props.form;\r",
 			"const hasFieldError=(fieldname)=>isFieldTouched(fieldname) && getFieldError(fieldname);\r",
@@ -277,7 +394,7 @@
 		"description": "Create a Form to be wrapped by Form.create()"
 	},
 	"Inline Form": {
-		"prefix": "antforminline",
+		"prefix": "antform-inline",
 		"body": [
 			"<Form layout=\"inline\">\r",
 			"    <FormItem label=\"Field A\">\r",
@@ -293,6 +410,22 @@
 			""
 		],
 		"description": "Create an inline Form"
+	},
+	"Slider": {
+		"prefix": "antslider",
+		"body": [
+			"<Slider range defaultValue={[20, 50]} />\r",
+			""
+		],
+		"description": ""
+	},
+	"Switch": {
+		"prefix": "antswitch",
+		"body": [
+			"<Switch defaultChecked />\r",
+			""
+		],
+		"description": ""
 	},
 	"Input": {
 		"prefix": "antinput",
@@ -311,7 +444,7 @@
 		"description": ""
 	},
 	"Input Group": {
-		"prefix": "antinputgroup",
+		"prefix": "antinput-group",
 		"body": [
 			"<InputGroup size=\"large\">\r",
 			"    <Col span=\"4\">\r",
@@ -326,7 +459,7 @@
 		"description": ""
 	},
 	"Input Group Compact": {
-		"prefix": "antinputgroupcompact",
+		"prefix": "antinput-group-compact",
 		"body": [
 			"<InputGroup compact>\r",
 			"    <Input style={{ width: '20%' }} defaultValue=\"$1\" />\r",
@@ -337,7 +470,7 @@
 		"description": "Create an Input Gourp with compact mode"
 	},
 	"Input Group With Select": {
-		"prefix": "antinputselect",
+		"prefix": "antinput-select",
 		"body": [
 			"<InputGroup compact>\r",
 			"    <Select defaultValue=\"$1\">\r",
@@ -412,6 +545,19 @@
 			"<Card title=\"$1\" extra={<a href=\"#\">More</a>}>\r",
 			"    <p>$2</p>\r",
 			"</Card>\r",
+			""
+		],
+		"description": ""
+	},
+	"Carousel": {
+		"prefix": "antcard",
+		"body": [
+			"<Carousel>\r",
+			"    <div><h3>1</h3></div>\r",
+			"    <div><h3>2</h3></div>\r",
+			"    <div><h3>3</h3></div>\r",
+			"    <div><h3>4</h3></div>\r",
+			"</Carousel>\r",
 			""
 		],
 		"description": ""
@@ -498,19 +644,8 @@
 	"Alert": {
 		"prefix": "antalert",
 		"body": [
-			"<Alert message=\"Success Text\" type=\"success\" />\r",
+			"<Alert showIcon message=\"Success Text\" type=\"${1|success,info,warning,error|}\" closable description=\"\" />\r",
 			""
-		],
-		"description": ""
-	},
-	"Alert Closable": {
-		"prefix": "antalertx",
-		"body": [
-			"<Alert message=\"$1\"\r",
-			"    description=\"$2\"\r",
-			"    type=\"error\"\r",
-			"    closable\r",
-			"/>"
 		],
 		"description": ""
 	},
@@ -525,7 +660,7 @@
 		"description": ""
 	},
 	"Information Modal": {
-		"prefix": "antmodalinfo",
+		"prefix": "antmodal-info",
 		"body": [
 			"Modal.$1({\r",
 			"    title: '$2',\r",
@@ -536,9 +671,9 @@
 		"description": ""
 	},
 	"Message": {
-		"prefix": "antmsg",
+		"prefix": "antmessage",
 		"body": [
-			"message.info('$1')",
+			"message.${1|success,error,info,warning,loading|}('$1')",
 			""
 		],
 		"description": ""
@@ -554,6 +689,14 @@
 		],
 		"description": ""
 	},
+	"Progress": {
+		"prefix": "antprogress",
+		"body": [
+			"<Progress percent={50} status=\"${1|success,exception,active|}\" type=\"${2|line,circle,dashboard|}\" />",
+			""
+		],
+		"description": ""
+	},
 	"Popconfirm": {
 		"prefix": "antpopconfirm",
 		"body": [
@@ -561,6 +704,33 @@
 			"    <a href=\"#\">$1</a>\r",
 			"</Popconfirm>",
 			""
+		],
+		"description": ""
+	},
+	"Skeleton": {
+		"prefix": "antskeleton",
+		"body": [
+			"<Skeleton />"
+		],
+		"description": ""
+	},
+	"Spin": {
+		"prefix": "antspin",
+		"body": [
+			"<Spin type=\"${1|small,default,large|}\" />"
+		],
+		"description": ""
+	},
+	"Spin in Container": {
+		"prefix": "antspin-container",
+		"body": [
+			"<Spin tip=\"Loading...\">",
+			"    <Alert\r",
+			"        message=\"Loading content\"\r",
+			"        description=\"Content here that is still loading\"\r",
+			"        type=\"info\"\r",
+			"    />\r",
+			"</Spin>"
 		],
 		"description": ""
 	}
