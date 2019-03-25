@@ -1,3 +1,13 @@
+# 1.1.0
+
+By [SamKirkland](https://github.com/SamKirkland)
+Added new components:
+
+* Typography
+* Statistic
+* Empty
+* PageHeader
+
 # 1.0.0
 
 By [SamKirkland](https://github.com/SamKirkland)

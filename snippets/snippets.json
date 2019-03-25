@@ -733,5 +733,109 @@
 			"</Spin>"
 		],
 		"description": ""
+	},
+	"Empty": {
+		"prefix": "antempty",
+		"body": [
+			"<Empty />"
+		],
+		"description": "Empty state placeholder."
+	},
+	"Empty with Message": {
+		"prefix": "antempty-w-message",
+		"body": [
+			"<Empty description=\"No data found...\">",
+			"    <Button type=\"primary\">Add one now</Button>",
+			"</Empty>"
+		],
+		"description": "Empty state placeholder."
+	},
+	"Statistic": {
+		"prefix": "antstatistic",
+		"body": [
+			"<Statistic title=\"Feedback\" value={1128} prefix={<Icon type=\"like\" />} />"
+		],
+		"description": "Display statistic data with a description."
+	},
+	"Typography Example": {
+		"prefix": "anttypography-example",
+		"body": [
+			"<Typography>",
+			"    <Typography.Title>Introduction</Typography.Title>",
+			"    <Typography.Paragraph>",
+			"        In the process of internal desktop applications development, many different design specs and implementations would be involved, which might cause designers and developers difficulties and duplication and reduce the efficiency of development.",
+			"    </Typography.Paragraph>",
+			"    <Typography.Paragraph>",
+			"        After massive project practice and summaries, Ant Design, a design language for background applications, is refined by Ant UED Team, which aims to <Text strong>uniform the user interface specs for internal background projects, lower the unnecessary cost of design differences and implementation and liberate the resources of design and front-end development</Text>.",
+			"    </Typography.Paragraph>",
+			"    <Typography.Title level={2}>Guidelines and Resources</Typography.Title>",
+			"    <Typography.Paragraph>",
+			"        We supply a series of design principles, practical patterns and high quality design resources (<Text code>Sketch</Text> and <Text code>Axure</Text>), to help people create their product prototypes beautifully and efficiently.",
+			"    </Typography.Paragraph>",
+			"</Typography>"
+		],
+		"description": ""
+	},
+	"Typography Title": {
+		"prefix": "anttypography-title",
+		"body": [
+			"<Typography.Title level={${1|1,2,3,4}}>Introduction</Typography.Title>"
+		],
+		"description": "Display title in different level. Levels match content importance: h1, h2, h3, h4"
+	},
+	"Typography Paragraph": {
+		"prefix": "anttypography-paragraph",
+		"body": [
+			"<Typography.Paragraph>",
+			"    In the process of internal desktop applications development, many different design specs and implementations would be involved, which might cause designers and developers difficulties and duplication and reduce the efficiency of development.",
+			"</Typography.Paragraph>"
+		],
+		"description": ""
+	},
+	"Typography Text": {
+		"prefix": "anttypography-text",
+		"body": [
+			"<Typography.Text type=\"${1|secondary,warning,danger}\" ${2|disabled,mark,code,underline,delete,strong}>Ant Design</Typography.Text>"
+		],
+		"description": "Provides multiple types of text."
+	},
+	"Typography Interactive": {
+		"prefix": "anttypography-interactive",
+		"body": [
+			"<Typography.Paragraph editable={{ onChange: this.onChange }}>{this.state.str}</Typography.Paragraph>",
+			"<Typography.Paragraph copyable>This is a copyable text.</Typography.Paragraph>",
+			"<Typography.Paragraph copyable={{ text: 'Hello, Ant Design!' }}>Replace copy text.</Typography.Paragraph>"
+		],
+		"description": "Provide additional interactive capacity. Copy to clipboard and edit on click."
+	},
+	"Typography Ellipsis": {
+		"prefix": "anttypography-ellipsis",
+		"body": [
+			"<Typography.Paragraph ellipsis>",
+			"    Ant Design, a design language for background applications, is refined by Ant UED Team.",
+			"    Ant Design, a design language for background applications, is refined by Ant UED Team.",
+			"    Ant Design, a design language for background applications, is refined by Ant UED Team.",
+			"    Ant Design, a design language for background applications, is refined by Ant UED Team.",
+			"    Ant Design, a design language for background applications, is refined by Ant UED Team.",
+			"    Ant Design, a design language for background applications, is refined by Ant UED Team.",
+			"</Typography.Paragraph>",
+			"",
+			"<Typography.Paragraph ellipsis={{ rows: 3, expandable: true }}>",
+			"    Ant Design, a design language for background applications, is refined by Ant UED Team.",
+			"    Ant Design, a design language for background applications, is refined by Ant UED Team.",
+			"    Ant Design, a design language for background applications, is refined by Ant UED Team.",
+			"    Ant Design, a design language for background applications, is refined by Ant UED Team.",
+			"    Ant Design, a design language for background applications, is refined by Ant UED Team.",
+			"    Ant Design, a design language for background applications, is refined by Ant UED Team.",
+			"</Typography.Paragraph>"
+		],
+		"description": "Provide additional interactive capacity. Copy to clipboard and edit on click."
+	},
+	"PageHeader": {
+		"prefix": "antpageheader",
+		"body": [
+			"<PageHeader onBack={() => null} title=\"Title\" subTitle=\"This is a subtitle\" />"
+		],
+		"description": "The header can be used to declare the page topic, display important information about the page that the user is on."
 	}
 }
